@@ -7,7 +7,7 @@ description: "Enjoy Life Blog. Here!"
 keyword: "tools, vim, Linux, C语言, PCIe"
 # {{ site.url }}{{ site.baseurl }}，可以分开，也可以只用一个
 #url: "https://huangxuan.me/"
-#url: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # your host, for absolute URL
+url: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # your host, for absolute URL
 #baseurl: "/EnjoyLifeBlog2.0" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -44,7 +44,7 @@ timezone: CN
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Markdown settings
 # replace redcarpet to kramdown,
