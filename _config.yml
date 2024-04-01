@@ -5,8 +5,9 @@ header-img: img/home-bg.jpg
 email: testhahaha@gmail.com
 description: "Enjoy Life Blog. Here!"
 keyword: "tools, vim, Linux, C语言, PCIe"
-url: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # your host, for absolute URL
-#baseurl: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # for example, '/blog' if your blog hosted on 'host/blog'
+# {{ site.url }}{{ site.baseurl }}
+url: "https://globetreklog.github.io" # your host, for absolute URL
+baseurl: "/EnjoyLifeBlog2.0" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -69,13 +70,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: xx.me
+#ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+#ga_domain: xx.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "有趣、有用 <br> React Team @ Meta"
+#sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
