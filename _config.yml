@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: testhahaha@gmail.com
 description: "Enjoy Life Blog. Here!"
 keyword: "tools, vim, Linux, C语言, PCIe"
-url: "https://globetreklog.github.io" # your host, for absolute URL
-baseurl: "/EnjoyLifeBlog2.0" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # your host, for absolute URL
+baseurl: "https://globetreklog.github.io/EnjoyLifeBlog2.0" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
